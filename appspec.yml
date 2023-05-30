@@ -1,13 +1,11 @@
 
 version: 0.0
 os: linux
-files:
-  - source: ./
-    destination:/home/ubuntu/himadri-app
+
 hooks:
   BeforeInstall:
-    - location:  /home/ubuntu/himadri-app/scripts/stop.sh
+    - location: ./scripts/stop.sh
       runas: ubuntu
   AfterInstall:
-    - location:  /home/ubuntu/himadri-app/scripts/start.sh
+    - location: ./scripts/start.sh
       runas: ubuntu
