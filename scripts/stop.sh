@@ -5,8 +5,8 @@ cd $project_path
  if [ $? -eq 0 ]
  then
   sudo tmux kill-session -t $session_name
-  cd ..
-  rm -rf /home/ubuntu/himadri
+  # cd ..
+  # rm -rf /home/ubuntu/himadri
     
  fi
 
