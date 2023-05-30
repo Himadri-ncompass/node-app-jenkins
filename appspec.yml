@@ -1,11 +1,11 @@
 
 version: 0.0
 os: linux
-
 hooks:
   BeforeInstall:
-    - location: ./scripts/stop.sh
+    - location: scripts/stop.sh
       runas: ubuntu
   AfterInstall:
-    - location: ./scripts/start.sh
+    - location: scripts/start.sh
       runas: ubuntu
+    
