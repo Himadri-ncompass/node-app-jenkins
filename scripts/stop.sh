@@ -1,7 +1,7 @@
-
+mkdir project_path
 # project_path="himadri"
 # session_name="node-app"
-# mkdir $project_path
+
 
 # cd $project_path
 #  unzip himadri-app.zip

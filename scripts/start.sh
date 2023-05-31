@@ -1,4 +1,4 @@
-
+touch hello.txt
 # !/bin/bash
 # if [ -d "/home/ubuntu/himadri" ]; then
 #   rm -rf /home/ubuntu/himadri
